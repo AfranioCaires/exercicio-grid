@@ -26,6 +26,7 @@ body {
   justify-items: center;
   margin-top: calc(4rem - 4px);
   background-color: var(--fundo-1);
+  color: var(--texto);
 }
 
 img {
@@ -120,7 +121,7 @@ p {
 
 .botao {
   background: var(--cor-primaria);
-  color: var(--fundo-2);
+  color: var(--texto);
   padding: 1rem 2rem;
   border-radius: 4px;
   text-transform: uppercase;
@@ -142,7 +143,7 @@ p {
 }
 
 .vantagens {
-  background: #fff;
+  background: var(--fundo-2);
   padding: 2.5rem;
 }
 
